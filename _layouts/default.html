@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="voxel-no-js" lang="en">
+
+  {% include head.html %}
+
+  {% include ascii-art.html %}
+
+  <body class="voxel-theme--{% if site.voxel_theme %}{{ '{{ site.voxel_theme }}' }}{% else %}{{ 'blue-gray' }}{% endif %}">
+    <main>
+      {% include drawer.html %}
+
+      {% include header.html %}
+
+      <div data-js="voxelDrawerPage" class="voxel-layout__page">
+        <div class="voxel-layout__content">
+          {% include browse_happy.html %}
+
+          {{ content }}
+
+          {% include footer.html %}
+
+        </div> <!-- /.voxel-layout__content -->
+      </div> <!-- /.voxel-layout__page -->
+    </main>
+
+    {% include foot.html %}
+  </body>
+
+</html>

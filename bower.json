@@ -1,0 +1,36 @@
+{
+  "name": "voxel-jekyll",
+  "version": "1.4.4",
+  "description": "A minimal Jekyll theme based on Voxel.",
+  "url": "https://github.com/rishabhsrao/voxel-jekyll",
+  "license": "./license.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rishabhsrao/voxel-jekyll.git"
+  },
+  "private": true,
+  "author": {
+    "name": "Rishabh Rao",
+    "email": "rishabhsrao@gmail.com",
+    "url": "http://rishabhsrao.github.io"
+  },
+  "dependencies": {
+    "jquery": "https://github.com/jquery/jquery.git#~1.10",
+    "requirejs": "https://github.com/jrburke/requirejs-bower.git#~2.1",
+    "voxel": "https://github.com/rishabhsrao/voxel.git#~3.1",
+    "tomorrow-pygments": "git@github.com:MozMorris/tomorrow-pygments.git"
+  },
+  "devDependencies": {
+    "normalize-css": "https://github.com/necolas/normalize.css.git#~3.0"
+  },
+  "resolutions": {
+    "jquery": "~1.10"
+  },
+  "main": [
+    "_site/**/*",
+    "bower.json",
+    "readme.md",
+    "license.md"
+  ],
+  "keywords": []
+}

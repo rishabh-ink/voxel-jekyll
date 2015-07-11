@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<section>
+
+  <h1>Posts</h1>
+
+  <ul class="voxel-list  voxel-list--ordered">
+    {% for post in site.posts %}
+      <li class="voxel-list__item">
+        <a class="voxel-list__item__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul> <!-- /.voxel-list -->
+</section>

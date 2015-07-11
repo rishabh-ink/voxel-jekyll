@@ -1,0 +1,12 @@
+# Site settings
+title: Voxel Jekyll
+email: your-email@domain.com
+description: A minimal Jekyll theme based on Voxel
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+highlighter: rouge
